@@ -1,0 +1,479 @@
+//font-family: 'DM Sans', sans-serif;
+//font-family: 'Mulish', sans-serif;
+
+.verso-page{
+    background: url('images/verso-background.png');
+    width: 100%;
+
+    .verso-page__content{
+        max-width: 1141px;
+        margin: 0 auto;
+
+        .verso-header{
+            font-family: 'DM Sans', sans-serif;
+
+            .verso-header__content{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 20px;
+
+                .verso-nav{
+
+                    .nav__content{
+                        
+                        .links{
+                            display: flex;
+
+                            .link{
+                                list-style: none;
+                                font-weight: 500;
+                                font-size: 16px;
+
+                                .link-service{
+                                    text-decoration: none;
+                                    color: white;
+                                    margin-right: 49px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .verso-button{
+
+                    .button-buy{
+
+                        .button{
+                            outline: none;
+                            border: 1px solid white;
+                            border-radius: 7px;
+                            background-color: unset;
+                            color: white;
+                            font-weight: 700;
+                            font-size: 16px;
+                            padding: 5px 29px 5px 30px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+
+        .verso-buy{
+            .buy__content{
+                font-family: 'Mulish', sans-serif;
+
+                .buy-title{
+                    font-weight: 900;
+                    color: white;
+                    font-size: 51px;
+                    line-height: 80px;
+                    margin-top: 173px;
+                    text-align: center;
+                }
+
+                .buy-sub-title{
+                    max-width: 689px;
+                    margin: 0 auto;
+                    color: white;
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 28px;
+                    text-align: center;
+                    margin-top: 20px;
+
+                    .buy-link{
+                        font-weight: 600;
+
+                        .b-link{
+                            text-decoration: none;
+                            color: #033573;
+                        }
+                    }
+                }
+
+                .verso-buy-companies{
+                    font-family: 'Mulish', sans-serif;
+
+                    .companies__content{
+                        display: flex;
+                        justify-content: center;
+
+                        .company-name{
+                            color: white;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 28px;
+                            text-align: center;
+                            margin-top: 42px;
+
+                            .company-card{
+                                
+                                .card{
+                                    display: block;
+                                }
+
+                                .gate-io{
+                                    background-color: white;
+                                    border-radius: 6px;
+                                    margin-top: 14px;
+                                }
+
+                                .pangolin{
+                                    background-color: #FF5F00;
+                                    border-radius: 6px;
+                                    padding: 2px 23px 2px 24px;
+                                    margin-top: 14px;
+                                }
+
+                                .partner{
+                                    background-color: white;
+                                    border-radius: 6px;
+                                    padding: 5px 59px 6px 60px;
+                                    margin-top: 18px;
+                                    margin-bottom: 18px;
+                                }
+
+                                .dctdao{
+                                    background-color: white;
+                                    border-radius: 6px;
+                                    padding: 19px 8px 20px 8px;
+                                }
+                            }
+                        }
+
+                        .name-cex{
+                            margin-right: 90px;
+                        }
+
+                    }
+                }
+
+                .buy-guide{
+                    font-family: 'Mulish', sans-serif;
+
+                    .content-guide{
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
+                        text-align: center;
+                        color: white;
+                        margin-top: 141px;
+
+                        .guide-link{
+                            font-weight: 600;
+
+                            .g-link{
+                                text-decoration: none;
+                                color: #033573;
+
+                                &:after{
+                                    content: '\003E';
+                                    display: inline-block;
+                                    margin-left: 5px;
+                                    color: #033573;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .verso-info{
+                    font-family: 'Mulish', sans-serif;
+
+                    .info-title{
+                        font-weight: 800;
+                        font-size: 44px;
+                        line-height: 80px;
+                        color: white;
+                        text-align: center;
+                        margin-top: 78px;
+                    }
+
+                    .info__content{
+                        display: flex;
+                        justify-content: space-around;
+
+                        .info-image{
+                            font-family: 'DM Sans', sans-serif;
+                            margin-top: 31px;
+
+                            .image-description{
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 28px;
+                                color: white;
+                                margin-top: 25px;
+                                padding-bottom: 60px;
+
+                                .description-link{
+                                    font-weight: 500;
+
+                                    .d-link{
+                                        text-decoration: none;
+                                        color: #033573;
+                                    }
+                                }
+                            }
+
+                            .desc_1{
+                                max-width: 293px;
+                            }
+
+                            .desc_2{
+                                max-width: 285px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.verso-staking{
+    font-family: 'Mulish', sans-serif;
+
+    .verso-staking__content{
+        max-width: 1141px;
+        margin: 0 auto;
+
+        .staking-title{
+            font-weight: 800;
+            font-size: 44px;
+            line-height: 80px;
+            color: #283049;
+            text-align: center;
+            margin-top: 31px;
+        }
+
+        .staking-subtitle{
+            max-width: 689px;
+            margin: 0 auto;
+            font-weight: 400;
+            color: #1F3E4F;
+            font-size: 21px;
+            line-height: 28px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .staking-components{
+            font-family: 'DM Sans', sans-serif;
+
+            &:after{
+                content: '';
+                display: block;
+                width: 950px;
+                height: 1px;
+                background-color: rgba(24, 123, 245);
+                margin: 0 auto;
+                margin-top: 15px;
+                margin-bottom: 23px;
+            }
+
+            .staking-components__content{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 63px;
+
+                .component{
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #1F3E4F;
+                }
+
+                .apy{
+                    position: relative;
+
+                    &::after{
+                        content: '\274B';
+                        font-size: 13px;
+                        color: #187BF5;
+                        position: absolute;
+                        top: -10px;
+                    }
+                }
+            }
+        }
+
+        .staking-extensions{
+            font-family: 'DM Sans', sans-serif;
+
+            &::after{
+                content: '';
+                display: block;
+                width: 950px;
+                height: 1px;
+                background-color: rgba(24, 123, 245);
+                margin: 0 auto;
+                margin-top: 31px;
+                margin-bottom: 30px;
+            }
+
+            .extensions__content{
+                display: flex;
+                justify-content: space-evenly;
+
+                .extensions-staking-pool{
+                    font-weight: 400;
+                    color: #1F3E4F;
+                    font-size: 18px;
+                    line-height: 28px;
+
+                    .extensions-staking-pool-setting_1{
+                        margin-top: 100px;
+                    }
+                }
+
+                .extensions-earn{
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #187BF5;
+
+                    .extensions-earn-setting_1{
+                        margin-top: 100px;
+                    }
+
+                    .extensions-earn-setting_5{
+                        color: #1F3E4F;
+                    }
+                }
+
+                .extensions-apy{
+                    font-weight: 400;
+                    color: #1F3E4F;
+                    font-size: 18px;
+                    line-height: 28px;
+
+                    .extensions-apy-setting_1{
+                        margin-top: 100px;
+                    }
+                }
+
+                .extensions-remarks{
+                    max-width: 265px;
+                    font-weight: 400;
+                    color: #1F3E4F;
+                    font-size: 18px;
+                    line-height: 28px;
+
+                    .extensions-earn-setting_1{
+                        margin-top: 70px;
+                    }
+
+                    .extensions-earn-setting_2{
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.verso-footer{
+    background-color: #0060E0;
+
+    .verso-footer__content{
+        max-width: 1141px;
+        margin: 0 auto;
+
+        .logo{
+            margin-top: 49px;
+        }
+
+        .verso-contacts{
+            font-family: 'DM Sans', sans-serif;
+
+            .verso-contacts__content{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 95px;
+
+                .subscribe{
+                    font-weight: 400;
+
+                    .subscribe-text{
+                        color: white;
+                        font-size: 22px;
+                        line-height: 28px;
+                        max-width: 197px;
+
+                        .input-subscribe-email{
+
+                            display: flex;
+
+                            .s-email{
+                                outline: none;
+                                border: none;
+                                background-color: unset;
+                                font-weight: 400;
+                                font-size: 15px;
+                                line-height: 19px;
+                                color: white;
+                                padding-bottom: 21px;
+                                padding-top: 10px;
+                                border-bottom: 1px solid rgba($color: white, $alpha: 0.1);
+                                margin-top: 40px;
+                                margin-bottom: 217px;
+    
+                            }
+    
+                            .s-button{
+                                outline: none;
+                                border: none;
+                                color: white;
+                                font-size: 18px;
+                                background-color: #0D6BD8;
+                                padding: 20px 26px 20px 27px;
+                                border-radius: 8px 8px 0 0;
+                                margin-top: 30px;
+                            }
+
+                        }
+
+                    }
+                }
+
+                .services-title{
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 22px;
+                    color: #0D6BD8;
+
+                    .service{
+                        font-weight: 400;
+                        margin-top: 20px;
+
+                        .s-link{
+                            text-decoration: none;
+                            color: white;
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+                .about-title{
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 22px;
+                    color: #0D6BD8;
+
+                    .service{
+                        font-weight: 400;
+                        margin-top: 20px;
+
+                        .s-link{
+                            text-decoration: none;
+                            color: white;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

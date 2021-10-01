@@ -1,0 +1,410 @@
+@charset "UTF-8";
+.verso-page {
+  background: url("images/verso-background.png");
+  width: 100%;
+}
+.verso-page .verso-page__content {
+  max-width: 1141px;
+  margin: 0 auto;
+}
+.verso-page .verso-page__content .verso-header {
+  font-family: "DM Sans", sans-serif;
+}
+.verso-page .verso-page__content .verso-header .verso-header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+.verso-page .verso-page__content .verso-header .verso-header__content .verso-nav .nav__content .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.verso-page .verso-page__content .verso-header .verso-header__content .verso-nav .nav__content .links .link {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+.verso-page .verso-page__content .verso-header .verso-header__content .verso-nav .nav__content .links .link .link-service {
+  text-decoration: none;
+  color: white;
+  margin-right: 49px;
+}
+.verso-page .verso-page__content .verso-header .verso-header__content .verso-button .button-buy .button {
+  outline: none;
+  border: 1px solid white;
+  border-radius: 7px;
+  background-color: unset;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 5px 29px 5px 30px;
+  cursor: pointer;
+}
+.verso-page .verso-page__content .verso-buy .buy__content {
+  font-family: "Mulish", sans-serif;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .buy-title {
+  font-weight: 900;
+  color: white;
+  font-size: 51px;
+  line-height: 80px;
+  margin-top: 173px;
+  text-align: center;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .buy-sub-title {
+  max-width: 689px;
+  margin: 0 auto;
+  color: white;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 20px;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .buy-sub-title .buy-link {
+  font-weight: 600;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .buy-sub-title .buy-link .b-link {
+  text-decoration: none;
+  color: #033573;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-buy-companies {
+  font-family: "Mulish", sans-serif;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-buy-companies .companies__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-buy-companies .companies__content .company-name {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 42px;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-buy-companies .companies__content .company-name .company-card .card {
+  display: block;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-buy-companies .companies__content .company-name .company-card .gate-io {
+  background-color: white;
+  border-radius: 6px;
+  margin-top: 14px;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-buy-companies .companies__content .company-name .company-card .pangolin {
+  background-color: #FF5F00;
+  border-radius: 6px;
+  padding: 2px 23px 2px 24px;
+  margin-top: 14px;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-buy-companies .companies__content .company-name .company-card .partner {
+  background-color: white;
+  border-radius: 6px;
+  padding: 5px 59px 6px 60px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-buy-companies .companies__content .company-name .company-card .dctdao {
+  background-color: white;
+  border-radius: 6px;
+  padding: 19px 8px 20px 8px;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-buy-companies .companies__content .name-cex {
+  margin-right: 90px;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .buy-guide {
+  font-family: "Mulish", sans-serif;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .buy-guide .content-guide {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+  margin-top: 141px;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .buy-guide .content-guide .guide-link {
+  font-weight: 600;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .buy-guide .content-guide .guide-link .g-link {
+  text-decoration: none;
+  color: #033573;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .buy-guide .content-guide .guide-link .g-link:after {
+  content: ">";
+  display: inline-block;
+  margin-left: 5px;
+  color: #033573;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-info {
+  font-family: "Mulish", sans-serif;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-info .info-title {
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 80px;
+  color: white;
+  text-align: center;
+  margin-top: 78px;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-info .info__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-info .info__content .info-image {
+  font-family: "DM Sans", sans-serif;
+  margin-top: 31px;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-info .info__content .info-image .image-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  margin-top: 25px;
+  padding-bottom: 60px;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-info .info__content .info-image .image-description .description-link {
+  font-weight: 500;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-info .info__content .info-image .image-description .description-link .d-link {
+  text-decoration: none;
+  color: #033573;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-info .info__content .info-image .desc_1 {
+  max-width: 293px;
+}
+.verso-page .verso-page__content .verso-buy .buy__content .verso-info .info__content .info-image .desc_2 {
+  max-width: 285px;
+}
+
+.verso-staking {
+  font-family: "Mulish", sans-serif;
+}
+.verso-staking .verso-staking__content {
+  max-width: 1141px;
+  margin: 0 auto;
+}
+.verso-staking .verso-staking__content .staking-title {
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 80px;
+  color: #283049;
+  text-align: center;
+  margin-top: 31px;
+}
+.verso-staking .verso-staking__content .staking-subtitle {
+  max-width: 689px;
+  margin: 0 auto;
+  font-weight: 400;
+  color: #1F3E4F;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 20px;
+}
+.verso-staking .verso-staking__content .staking-components {
+  font-family: "DM Sans", sans-serif;
+}
+.verso-staking .verso-staking__content .staking-components:after {
+  content: "";
+  display: block;
+  width: 950px;
+  height: 1px;
+  background-color: #187bf5;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 23px;
+}
+.verso-staking .verso-staking__content .staking-components .staking-components__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 63px;
+}
+.verso-staking .verso-staking__content .staking-components .staking-components__content .component {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1F3E4F;
+}
+.verso-staking .verso-staking__content .staking-components .staking-components__content .apy {
+  position: relative;
+}
+.verso-staking .verso-staking__content .staking-components .staking-components__content .apy::after {
+  content: "❋";
+  font-size: 13px;
+  color: #187BF5;
+  position: absolute;
+  top: -10px;
+}
+.verso-staking .verso-staking__content .staking-extensions {
+  font-family: "DM Sans", sans-serif;
+}
+.verso-staking .verso-staking__content .staking-extensions::after {
+  content: "";
+  display: block;
+  width: 950px;
+  height: 1px;
+  background-color: #187bf5;
+  margin: 0 auto;
+  margin-top: 31px;
+  margin-bottom: 30px;
+}
+.verso-staking .verso-staking__content .staking-extensions .extensions__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.verso-staking .verso-staking__content .staking-extensions .extensions__content .extensions-staking-pool {
+  font-weight: 400;
+  color: #1F3E4F;
+  font-size: 18px;
+  line-height: 28px;
+}
+.verso-staking .verso-staking__content .staking-extensions .extensions__content .extensions-staking-pool .extensions-staking-pool-setting_1 {
+  margin-top: 100px;
+}
+.verso-staking .verso-staking__content .staking-extensions .extensions__content .extensions-earn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #187BF5;
+}
+.verso-staking .verso-staking__content .staking-extensions .extensions__content .extensions-earn .extensions-earn-setting_1 {
+  margin-top: 100px;
+}
+.verso-staking .verso-staking__content .staking-extensions .extensions__content .extensions-earn .extensions-earn-setting_5 {
+  color: #1F3E4F;
+}
+.verso-staking .verso-staking__content .staking-extensions .extensions__content .extensions-apy {
+  font-weight: 400;
+  color: #1F3E4F;
+  font-size: 18px;
+  line-height: 28px;
+}
+.verso-staking .verso-staking__content .staking-extensions .extensions__content .extensions-apy .extensions-apy-setting_1 {
+  margin-top: 100px;
+}
+.verso-staking .verso-staking__content .staking-extensions .extensions__content .extensions-remarks {
+  max-width: 265px;
+  font-weight: 400;
+  color: #1F3E4F;
+  font-size: 18px;
+  line-height: 28px;
+}
+.verso-staking .verso-staking__content .staking-extensions .extensions__content .extensions-remarks .extensions-earn-setting_1 {
+  margin-top: 70px;
+}
+.verso-staking .verso-staking__content .staking-extensions .extensions__content .extensions-remarks .extensions-earn-setting_2 {
+  margin-top: 30px;
+}
+
+.verso-footer {
+  background-color: #0060E0;
+}
+.verso-footer .verso-footer__content {
+  max-width: 1141px;
+  margin: 0 auto;
+}
+.verso-footer .verso-footer__content .logo {
+  margin-top: 49px;
+}
+.verso-footer .verso-footer__content .verso-contacts {
+  font-family: "DM Sans", sans-serif;
+}
+.verso-footer .verso-footer__content .verso-contacts .verso-contacts__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 95px;
+}
+.verso-footer .verso-footer__content .verso-contacts .verso-contacts__content .subscribe {
+  font-weight: 400;
+}
+.verso-footer .verso-footer__content .verso-contacts .verso-contacts__content .subscribe .subscribe-text {
+  color: white;
+  font-size: 22px;
+  line-height: 28px;
+  max-width: 197px;
+}
+.verso-footer .verso-footer__content .verso-contacts .verso-contacts__content .subscribe .subscribe-text .input-subscribe-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.verso-footer .verso-footer__content .verso-contacts .verso-contacts__content .subscribe .subscribe-text .input-subscribe-email .s-email {
+  outline: none;
+  border: none;
+  background-color: unset;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: white;
+  padding-bottom: 21px;
+  padding-top: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 40px;
+  margin-bottom: 217px;
+}
+.verso-footer .verso-footer__content .verso-contacts .verso-contacts__content .subscribe .subscribe-text .input-subscribe-email .s-button {
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  background-color: #0D6BD8;
+  padding: 20px 26px 20px 27px;
+  border-radius: 8px 8px 0 0;
+  margin-top: 30px;
+}
+.verso-footer .verso-footer__content .verso-contacts .verso-contacts__content .services-title {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #0D6BD8;
+}
+.verso-footer .verso-footer__content .verso-contacts .verso-contacts__content .services-title .service {
+  font-weight: 400;
+  margin-top: 20px;
+}
+.verso-footer .verso-footer__content .verso-contacts .verso-contacts__content .services-title .service .s-link {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.verso-footer .verso-footer__content .verso-contacts .verso-contacts__content .about-title {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #0D6BD8;
+}
+.verso-footer .verso-footer__content .verso-contacts .verso-contacts__content .about-title .service {
+  font-weight: 400;
+  margin-top: 20px;
+}
+.verso-footer .verso-footer__content .verso-contacts .verso-contacts__content .about-title .service .s-link {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
